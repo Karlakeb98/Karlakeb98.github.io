@@ -1,0 +1,103 @@
+header {
+    display: flex;
+    background-color: rgb(179, 182, 185);
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+body {
+    background-color: #699257;
+}
+
+img {
+    width: 300px;
+}
+
+
+p {
+    font-size: 19px;
+    color: rgb(15, 15, 15);
+}
+.imagenencabezado img{
+    width: 65%;
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container{
+width:100%;
+max-width:1200px;
+margin: 0 auto;
+overflow: hidden;
+text-align: center;
+}
+.home{
+    background-image: url(./Imagenes/vvv.jpeg);
+
+}
+.container-table{
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.subtitle{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.card-container{
+    background-color: #a4afa5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.home img{
+    width: 30%;
+    align-items: center;
+
+
+}
+.pelissub {
+    width: 100%;
+    background-color: #699257;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: space-evenly;  
+    justify-content: left;
+}
+
+.imagenesletterboxd1{
+
+    background-image: url(./Imagenes/vvv.jpeg);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+    width: 100%;
+    gap: 3em;
+}
+
+.pelis img {
+    flex-direction: row;
+    width:300px;
+    display: flex;
+}
+
+.musica {
+    width: 100%;
+}
+
+
+.carusel-item {
+    align-content: center;
+}
+
+.carusel-item img {
+    width: 20%;
+    height: 5%;
+}
